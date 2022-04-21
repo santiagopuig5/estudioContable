@@ -267,6 +267,15 @@ h1 {
   padding-bottom: 10px;
   color: white;
   font-size: 40px;
+  animation: bounce1 .5s;
+}
+@keyframes bounce1{
+  0%{
+    transform: translateX(-40%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
 }
 h2 {
   display: flex;
