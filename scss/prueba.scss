@@ -1,3 +1,10 @@
+// Variables
+$color-principal: #014f86;
+$color-letra: white;
+
 .div{
-    color: red;
+    color: $color-principal;
+}
+h1{
+    color: $color-letra;
 }
