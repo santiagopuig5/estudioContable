@@ -297,15 +297,7 @@ section img {
   height: 100px;
   margin-bottom: 0.5rem; }
 
-.servicios {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: white; }
-
-.equipo {
+.servicios, .equipo {
   display: flex;
   align-self: center;
   justify-content: center;
@@ -470,7 +462,7 @@ body {
   input,
   textarea {
     width: 82vw; }
-  .servicios {
+  .servicios, .equipo {
     flex-direction: column; }
   .padding {
     padding: 10px; }

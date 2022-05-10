@@ -347,12 +347,7 @@ section img {
   color: white;
 }
 .equipo {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: white;
+  @extend .servicios
 }
 .equipo h5 {
   text-align: center;
