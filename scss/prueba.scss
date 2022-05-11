@@ -459,7 +459,18 @@ body {
   background-color: #014f86;
 }
 /*aca termina el estilo del footer*/
+// MAPS
+$profiles: (
+  instagram: #bc2ea4,
+  linkedin: #007bb6,
+  youtube: #b00,
+);
 
+@each $profiles, $bgcolor in $profiles {
+  .profile-link--#{$profiles}:hover {
+    background: $bgcolor;
+  }
+}
 /* COMIENZO DE GALERÍA*/
 
 .imagen {

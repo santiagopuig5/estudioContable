@@ -412,6 +412,15 @@ body {
   background-color: #014f86; }
 
 /*aca termina el estilo del footer*/
+.profile-link--instagram:hover {
+  background: #bc2ea4; }
+
+.profile-link--linkedin:hover {
+  background: #007bb6; }
+
+.profile-link--youtube:hover {
+  background: #b00; }
+
 /* COMIENZO DE GALERÍA*/
 .imagen {
   width: 100%; }
