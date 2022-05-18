@@ -56,53 +56,6 @@ a:hover {
   display: none; }
 
 /* FIN NUEVO HEADER */
-/*aca empieza el estilo del header*/
-/* header {
-    width: 100;
-    background-color: #012844;
-    height: 70px;
-  }
-  .ancho {
-    width: 80%;
-    height: 70%;
-    background-color: white;
-    margin: auto;
-  }
-  .logo {
-    width: 30%;
-    height: 70px;
-    background-color: #012844;
-    float: left;
-    padding-top: 10px;
-    box-sizing: border-box;
-  }
-  .logo p a {
-    color: white;
-    font-size: 40px;
-    text-decoration: none;
-  }
-  nav {
-    width: 70%;
-    height: 70px;
-    background-color: #012844;
-    float: left;
-    text-align: right;
-    padding-top: 24px;
-    box-sizing: border-box;
-  }
-  nav ul li {
-    display: inline;
-  }
-  nav ul li a {
-    color: white;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding-left: 15px;
-    font-weight: bold;
-    font-family: raleway;
-  } */
-/*aca termina el estilo del header*/
 @font-face {
   font-family: raleway;
   src: url(../fonts/Raleway-Regular.ttf); }
@@ -357,7 +310,11 @@ footer {
 .logo__footer {
   padding-top: 10px;
   box-sizing: border-box;
-  margin-right: 100px; }
+  margin-right: 100px;
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  font-weight: bold; }
 
 .logo__footer p a {
   color: white;
